@@ -1,0 +1,153 @@
+body{
+    font-family: "微软雅黑", "黑体", serif;
+}
+.course-table{
+    width: 100%;/*手动设置*/
+    border-collapse:collapse;
+    text-align: center;
+    table-layout:fixed;
+}
+.course-table tr .today,
+.course-table tr .today span,
+.course-table tr .special span{
+    color: #27d6eb;
+}
+.course-table tr th{
+    height: 50px;
+    font-weight: bolder;
+    font-size: 15px;
+    width: 14.2857%;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #F7F7F7;
+}
+.course-table tr th span{
+    font-size: 13px;
+    font-weight: normal;
+    color: #B1B1B1;
+}
+.course-table td{
+    border-bottom: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    font-size: 8px;
+    height: 80px;
+}
+.course-table .hidden{
+    display: none;
+}
+
+.course-show-wrapper{
+    width: 100%;/*手动设置*/
+    height: 1104px;/*手动设置的*/
+}
+.course-show-prev, .course-show-current, .course-show-next{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.course-table .course-color-over{/*时间进过*/
+
+}
+/*
+course-color-0 到 course-color-29 共30种颜色
+/*******************************************************颜色开始*******************************************************/
+.course-table .course-color-0{
+    background-color: #f47920;
+}
+.course-table .course-color-1{
+    background-color: #b2d235;
+}
+.course-table .course-color-2{
+    background-color: #faa755;
+}
+.course-table .course-color-3{
+    background-color: #78a355;
+}
+.course-table .course-color-4{
+    background-color: #1d953f;
+}
+.course-table .course-color-5{
+    background-color: #694d9f;
+}
+.course-table .course-color-6{
+    background-color: #dea32c;
+}
+.course-table .course-color-7{
+    background-color: #f3715c;
+}
+.course-table .course-color-8{
+    background-color: #8e3e1f;
+}
+.course-table .course-color-9{
+    background-color: #6c4c49;
+}
+.course-table .course-color-10{
+    background-color: #7bbfea;
+}
+.course-table .course-color-11{
+    background-color: #dbce8f;
+}
+.course-table .course-color-12{
+    background-color: #6e6b41;
+}
+.course-table .course-color-13{
+    background-color: #008792;
+}
+.course-table .course-color-14{
+    background-color: #ea66a6;
+}
+.course-table .course-color-15{
+    background-color: #f26522;
+}
+.course-table .course-color-16{
+    background-color: #444693;
+}
+.course-table .course-color-17{
+    background-color: #feeeed;
+}
+.course-table .course-color-18{
+    background-color: #853f04;
+}
+.course-table .course-color-19{
+    background-color: #45b97c;
+}
+.course-table .course-color-20{
+    background-color: #b22c46;
+}
+.course-table .course-color-21{
+    background-color: #9b95c9;
+}
+.course-table .course-color-22{
+    background-color: #d2553d;
+}
+.course-table .course-color-23{
+    background-color: #a3cf62;
+}
+.course-table .course-color-24{
+    background-color: #f15a22;
+}
+.course-table .course-color-25{
+    background-color: #da765b;
+}
+.course-table .course-color-26{
+    background-color: #33a3dc;
+}
+.course-table .course-color-27{
+    background-color: #2b6447;
+}
+.course-table .course-color-28{
+    background-color: #c77eb5;
+}
+.course-table .course-color-29{
+    background-color: #ad8b3d;
+}
+/*******************************************************颜色结束*******************************************************/
